@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stream.css">
+    <link rel="stylesheet" href="/css/twitch.css">
+    <title>Charkon Twitch</title>
+</head>
+<body>
+    <div id="navigation"></div>
+    <div class="main">
+        <div class="bowl">
+            <div class="video">
+                <iframe src="https://player.twitch.tv/?channel=charktv&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            </div>
+        </div>
+        <img class="great-white-left" src="/images/great white - Copy - Copy.svg" alt="Great white shark">
+        <img class="great-white-right" src="/images/great white - Copy - Copy.svg" alt="Great white shark">
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#navigation').load('../nav.html');
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.burger').click(function(){
+                let navLi = $('.nav-links');
+                navLi.animate({
+                    opacity: '1'
+                }, "slow"); 
+            })
+        })
+    </script>
+</body>
+</html>
