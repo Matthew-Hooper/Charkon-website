@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/navstyle.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Navigation</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="Charkon"><a href="/index.html">Charkon</a></div>  
+            <ul class="nav-links">
+                <li class="links"><a href="/pages/about.html">About</a></li>
+                <li class="links"><a href="/pages/mixer.html">Mixer</a></li>
+                <li class="links"><a href="/pages/twitch.html">Twitch</a></li>
+                <li class="links"><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <script src='http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <script src='/path/to/jquery.keyframes[.min].js'></script>
+    <script>
+        $(document).ready(function(){
+            $('.burger').click(function(){
+                $('.burger').toggleClass('toggle')
+                $('.nav-links').toggleClass('nav-active')
+            })
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.burger').click(function(){
+                $('.links').css('opacity', '1');
+            })
+        })
+    </script>
+</body>
+</html>

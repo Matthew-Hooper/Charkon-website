@@ -1,0 +1,13 @@
+.great-white-left {
+    left: 0.5%;
+    transform: rotate(285deg);
+}
+
+.great-white-right {
+    right: 0.5%;
+    transform: rotate(105deg);
+}
+
+.bowl {
+    background-color: #6441A4;
+}
