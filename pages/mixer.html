@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,3 +39,45 @@
     </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Charkon-website/css/stream.css">
+    <link rel="stylesheet" href="/Charkon-website/css/mixer.css">
+    <title>Charkon Mixer</title>
+</head>
+<body>
+    <div id="navigation"></div>
+    <div class="main">
+        <div class="bowl">
+            <iframe title="Charkon's player frame" i18n-title="channel#ShareDialog:playerEmbedFrame|Embed player Frame copied from share dialog" allowfullscreen="true" src="https://mixer.com/embed/player/Charkon?disableLowLatency=1" width="620" height="349"> </iframe>
+        </div>
+        <img class="great-white-left" src="/Charkon-website/images/great white - Copy - Copy.svg" alt="Great white shark">
+        <img class="great-white-right" src="/Charkon-website/images/great white - Copy - Copy.svg" alt="Great white shark">
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#navigation').load('/Charkon-website/nav.html');
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.burger').click(function(){
+                let navLi = $('.nav-links');
+                navLi.animate({
+                    opacity: '1'
+                }, "slow"); 
+            })
+        })
+    </script>
+</body>
+</html>
+>>>>>>> 5ee1eae57426902a2168c6ab950da347f79af16c

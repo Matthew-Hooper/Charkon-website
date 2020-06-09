@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bowl {
     background-color: rgb(41, 55, 74);
 }
@@ -10,4 +11,18 @@
 .great-white-right {
     right: 3%;
     transform: rotate(285deg);
+=======
+.bowl {
+    background-color: rgb(41, 55, 74);
+}
+
+.great-white-left {
+    left: 3%;
+    transform: rotate(105deg);
+}
+
+.great-white-right {
+    right: 3%;
+    transform: rotate(285deg);
+>>>>>>> 5ee1eae57426902a2168c6ab950da347f79af16c
 }

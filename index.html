@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,3 +41,47 @@
     <script src="nav.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Charkon-website/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Charkon</title>
+</head>
+<body>
+    <div id="navigation"></div>
+    <main class="main">
+        <div class="bowl">
+            <h1>Welcome to the Chark Tank</h1>
+            <p>Welcome! This website is more of a fansite than anything else. Be sure to check out Chark on his Mixer and Twitch both.</p>
+            <br>
+            <p>You can learn more about Chark and myself in the About page so explore the site.</p>
+        </div>
+        <img class="hammerhead-right" src="/Charkon-website/images/hammerhead - Copy - Copy.svg" alt="A hammerhead shark">
+        <img class="hammerhead-left" src="/Charkon-website/images/hammerhead - Copy - Copy.svg" alt="A hammerhead shark">
+    </main>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#navigation').load('/Charkon-website/nav.html');
+        })
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('.burger').click(function(){
+                let navLi = $('.nav-links');
+                navLi.animate({
+                    opacity: '1'
+                }, "slow"); 
+            })
+        })
+    </script>
+    <script src="/Charkon-website/nav.js"></script>
+</body>
+</html>
+>>>>>>> 5ee1eae57426902a2168c6ab950da347f79af16c
